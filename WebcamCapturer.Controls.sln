@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F562285E-4229-4DA3-A519-7FA45CB93353}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebcamCapturer.Controls.WPF", "WebcamCapturer.Controls.WPF\WebcamCapturer.Controls.WPF.csproj", "{587F1ED7-445B-4367-AC2F-5F783FC8A65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebcamCapturer.Controls.WinForms", "WebcamCapturer.Controls.WinForms\WebcamCapturer.Controls.WinForms.csproj", "{A142549D-7F63-4C66-862B-B4E2CD6956B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebcamCapturer.Core", "WebcamCapturer.Core\WebcamCapturer.Core.csproj", "{9F150C85-3145-4E42-8F20-FCAAB4A6B7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCamera4", "TestCamera4\TestCamera4.csproj", "{9F73F7FE-5D05-46B1-B4E8-16380967DDE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{587F1ED7-445B-4367-AC2F-5F783FC8A65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587F1ED7-445B-4367-AC2F-5F783FC8A65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587F1ED7-445B-4367-AC2F-5F783FC8A65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587F1ED7-445B-4367-AC2F-5F783FC8A65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A142549D-7F63-4C66-862B-B4E2CD6956B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142549D-7F63-4C66-862B-B4E2CD6956B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142549D-7F63-4C66-862B-B4E2CD6956B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142549D-7F63-4C66-862B-B4E2CD6956B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F150C85-3145-4E42-8F20-FCAAB4A6B7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F150C85-3145-4E42-8F20-FCAAB4A6B7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F150C85-3145-4E42-8F20-FCAAB4A6B7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F150C85-3145-4E42-8F20-FCAAB4A6B7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F73F7FE-5D05-46B1-B4E8-16380967DDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F73F7FE-5D05-46B1-B4E8-16380967DDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F73F7FE-5D05-46B1-B4E8-16380967DDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F73F7FE-5D05-46B1-B4E8-16380967DDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {162301F1-EA23-413B-88C0-9D9759D1B13B}
+	EndGlobalSection
+EndGlobal
